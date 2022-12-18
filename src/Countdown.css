@@ -1,0 +1,46 @@
+.countdown {
+    background: linear-gradient(#368af4, #3181f2);
+    color:white;
+    font-size: 1.8rem;
+    padding: 25px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+label{
+    margin-right: 50px;
+}
+
+button{
+    background: orange;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 20px;
+}
+
+.countdown__icons{
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 1.5rem;
+}
+
+.countdown:hover .countdown__icons{
+    display: block;
+}
+
+i{
+    margin-left: 10px;
+}
+
+.countdown:hover .overlay span {
+    display: block;
+}

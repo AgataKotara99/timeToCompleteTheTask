@@ -1,0 +1,27 @@
+.overlay__modal{
+    position: fixed;
+    left: 0;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    background: white;
+    color: black;
+    padding: 50px;
+    display: none;
+}
+
+.overlay__modal--visible{
+    display: block;
+}
+
+.overlay span {
+    float: right;
+    font-size: 1rem;
+    padding: 0 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.overlay{
+    float: right;
+}

@@ -1,0 +1,15 @@
+.edit-event{
+    background: orange;
+    color:white;
+    font-size: 1.8rem;
+    padding: 25px;
+}
+
+.edit-event__input-group{
+    margin-left: 20px;
+    color: white;
+}
+
+.edit-event button:disabled{
+    opacity: 0.4;
+}
